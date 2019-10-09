@@ -11,12 +11,14 @@ import { CargaComponent } from './components/carga/carga.component';
 import { APP_ROUTES } from './app.routes';
 import { CargaImagenesService } from './services/carga-imagenes.service';
 import { environment } from 'src/environments/environment';
+import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     FotosComponent,
-    CargaComponent
+    CargaComponent,
+    NgDropFilesDirective
   ],
   imports: [
     BrowserModule, 

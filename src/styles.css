@@ -18,6 +18,10 @@
 	margin-top: 30px; 
 }
 
+.btn-space {
+  margin-right: 5px;
+}
+
 .text-green { 
 	color: green 
 }
