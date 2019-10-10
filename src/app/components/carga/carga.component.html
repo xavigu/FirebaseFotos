@@ -2,7 +2,7 @@
 
   <div class="col-md-4">
     <h3>Seleccione archivos</h3>
-    <div appNgDropFiles (mouseOver)="overElement = $event" [ngClass]="{'file-over': overElement}" class="well drop-zone"> 
+    <div appNgDropFiles [archivos]="archivos" (mouseOver)="overElement = $event" [ngClass]="{'file-over': overElement}" class="well drop-zone"> 
     <!-- file-over es una clase que esta o no segun la variable overElement y con el emitter mouseOver cambia a true cuando pasas un fichero por encima del div -->
       <h4>Arrastre aquí los archivos</h4>
       <img src="assets/drop-images.png">
