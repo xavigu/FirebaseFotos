@@ -12,13 +12,15 @@ import { APP_ROUTES } from './app.routes';
 import { CargaImagenesService } from './services/carga-imagenes.service';
 import { environment } from 'src/environments/environment';
 import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
+import { SplitPipe } from './pipes/split.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FotosComponent,
     CargaComponent,
-    NgDropFilesDirective
+    NgDropFilesDirective,
+    SplitPipe
   ],
   imports: [
     BrowserModule, 

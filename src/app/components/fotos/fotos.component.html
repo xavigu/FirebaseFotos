@@ -2,7 +2,7 @@
   <div class="card" *ngFor="let item of items | async">
     <img class="card-img-top" [src]="item.url">
     <div class="card-body">
-      <h5 class="card-title text-center">{{item.nombre}}</h5>
+      <h5 class="card-title text-center">{{item.nombre | split}}</h5>
     </div>
   </div>
 </div>

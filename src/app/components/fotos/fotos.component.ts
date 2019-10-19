@@ -25,6 +25,7 @@ export class FotosComponent implements OnInit {
     // method below for how to persist the id with
     // valueChanges()
     this.items = this.itemsCollection.valueChanges();
+    console.log('ITEEEEEEEEMS:', this.items);
   }
   ngOnInit() {
   }
